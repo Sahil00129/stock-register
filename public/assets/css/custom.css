@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    font-size: 12px;
+   
+  }
+  .container{
+      border: 1px solid blue;
+      width: auto;
+      margin-bottom: -1px;
+
+  }
+  
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 8px;
+    margin-bottom: -1px;
+   
+  }
+  .column mb-0{
+      border-left: hidden;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-bottom: 1px solid blue;
+  } 
+  .row{
+    border-bottom: 1px solid blue;
+    margin-bottom: 0px;
+  }
+  .h6{
+    margin-bottom: -2px;
+    margin-top: -9px;
+  }
+ h2{
+    font-style: italic;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .p {
+    margin-top: 0px;
+    margin-bottom: -6px;
+
+}
+.p2 {
+    margin-top: -11px;
+    margin-bottom: -6px;
+
+}
+.inline-input{
+    border: hidden;
+    outline: none;
+    width: 45%;
+}
+.inputtext{
+  border: hidden;
+  outline: none;
+  width:10%;
+}
+.center-block{
+  width: 25%;
+  border: none;
+  outline: none;
+}
+ul{
+  margin-bottom: -3px;
+}
+.para {
+  margin-top: -15;
+  margin-bottom: 0rem;
+  margin-left: 30px;
+ 
+
+}
+.box{
+  box-sizing: border-box;
+  width: 250px;
+  height: 90px;  
+  border: 1px solid blue;
+  margin-left: 80px;
+ 
+}
+.head6{
+  margin-top: 1px;
+  margin-bottom: 45px;
+  margin-left: 10px;
+}
+.para2{
+  text-align: end;
+}
+.block{
+  display: inline-block;
+  width: 160px;
+  text-align: left;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column  {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column  {
+      width: 100%;
+    }
+  } 
+ 
